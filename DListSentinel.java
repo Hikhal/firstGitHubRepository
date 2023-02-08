@@ -4,7 +4,7 @@ public class DListSentinel<E> implements List<E> {
         public E data;
         public DListNode<E> next;
         public DListNode<E> previous; 
-    }
+    }	//creates dListNode object.
 
 
     private DListNode<E> nil;
